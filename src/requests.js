@@ -1,4 +1,4 @@
-import constants from '../api-key'
+import constants from './api-key'
 
 export default {
     fetchTrending: `trending/all/week?api_key=${constants.API_KEY}&language=en-US`,
@@ -11,15 +11,15 @@ export default {
 
     fetchHorrorMoviews: `/discover/movie?api_key=${constants.API_KEY}&with_genres=27`,
 
-    fetchRomanceMoview: `/discover/movie?api_key=${constants.API_KEY}&with_genres=10749`,
+    fetchRomanceMovies: `/discover/movie?api_key=${constants.API_KEY}&with_genres=10749`,
 
     fetchMysteryMovies: `/discover/movie?api_key=${constants.API_KEY}&with_genres=9648`,
 
     fetchSciFiMovies: `/discover/movie?api_key=${constants.API_KEY}&with_genres=878`,
 
-    fetchWesternMoview: `/discover/movie?api_key=${constants.API_KEY}&with_genres=37`,
+    fetchWesternMovies: `/discover/movie?api_key=${constants.API_KEY}&with_genres=37`,
 
-    fetchAnimationMoview: `/discover/movie?api_key=${constants.API_KEY}&with_genres=16`,
+    fetchAnimationMovies: `/discover/movie?api_key=${constants.API_KEY}&with_genres=16`,
 
     fetchTV: `/discover/movie?api_key=${constants.API_KEY}&with_genres=10770`,
 }

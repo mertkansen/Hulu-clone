@@ -12,12 +12,12 @@ import LiveTvIcon from '@material-ui/icons/LiveTv'
 import VideoLibrary from '@material-ui/icons/VideoLibrary'
 import SearchIcon from '@material-ui/icons/Search'
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
-
+import ThumbUpSharpIcon from '@material-ui/icons/ThumbUpSharp'
 
 
 // Icons
 export {
-    HomeIcon, FlashOnIcon, LiveTvIcon, VideoLibrary, SearchIcon, PersonOutlineIcon
+    HomeIcon, FlashOnIcon, LiveTvIcon, VideoLibrary, SearchIcon, PersonOutlineIcon, ThumbUpSharpIcon
 }
 
 // Components
