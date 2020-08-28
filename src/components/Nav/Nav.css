@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    color: antiquewhite;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome, Safari, Opera */
+.nav::-webkit-scrollbar { 
+    display: none;
+}
+
+
+.nav > h2 {
+    cursor: pointer;
+    margin: 0 30px;
+    font-weight: 500;
+    transition: transform 200ms ease-out;
+    opacity: 0.7;
+}
+
+.nav > h2:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}

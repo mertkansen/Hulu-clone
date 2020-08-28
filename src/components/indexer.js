@@ -1,9 +1,9 @@
 // Components
 import App from './App/App'
 import Header from './Header/Header'
-
-
-
+import Nav from './Nav/Nav'
+import Results from './Results/Results'
+import VideoCard from './VideoCard/VideoCard'
 
 // Icons
 import HomeIcon from '@material-ui/icons/Home'
@@ -22,5 +22,5 @@ export {
 
 // Components
 export {
-    App, Header
+    App, Header, Nav, Results, VideoCard
 }

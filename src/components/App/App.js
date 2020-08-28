@@ -2,16 +2,18 @@ import React from 'react'
 import './App.css'
 
 import {
-    Header
+    Header, Nav, Results
 } from '../indexer'
+
 
 
 const App = () => {
     return (
         <div className="app">
             <Header />
-            {/* Nav */}
-            {/* Results */}
+            <Nav />
+            <Results />
+
         </div>
     )
 }
